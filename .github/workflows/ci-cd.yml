@@ -41,6 +41,6 @@ jobs:
       run: |
         kubectl expose deployment my-app --type=LoadBalancer --port=5000
 
-    - name: Get Minikube URL
-      run: |
-        minikube service my-app --url
+    # - name: Get Minikube URL
+    #   run: |
+    #     minikube service my-app --url
