@@ -8,6 +8,7 @@ on:
 jobs:
   build-test-push:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
@@ -26,7 +27,4 @@ jobs:
         with:
           context: .
           push: true
-           tags: shishir1620/demo:latest
-
-          
-
+          tags: shishir1620/demo:latest
