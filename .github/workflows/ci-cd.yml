@@ -26,5 +26,5 @@ jobs:
         with:
           context: .
           push: true
-          tags: shishir1620/your-repo-name:latest
+          # tags: shishir1620/your-repo-name:latest
 
